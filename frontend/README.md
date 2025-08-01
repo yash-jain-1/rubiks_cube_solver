@@ -44,7 +44,7 @@ This project is a frontend application that provides a fully interactive 3D visu
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/rubiks-cube-visualizer.git](https://github.com/your-username/rubiks-cube-visualizer.git)
+    git clone [https://github.com/yash-jain-1/rubiks_cube_solver.git](https://github.com/yash-jain-1/rubiks_cube_solver.git)
     cd rubiks-cube-visualizer
     ```
 
