@@ -3,7 +3,6 @@
 This project is a frontend application that provides a fully interactive 3D visualization of a Rubik's Cube, built with TypeScript and Three.js. It is designed to connect to a separate backend solver service to fetch solutions for scrambled states and visualize the solving process.
 
 ![Rubik's Cube Visualizer](./assets/screenshot.png)
-*(You can replace this with a screenshot of your running application)*
 
 ## Features
 
