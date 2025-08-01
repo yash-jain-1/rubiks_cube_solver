@@ -12,7 +12,12 @@ def solve_cube(facelet_string):
 def heuristic(cube):
     """Simple heuristic: count of misplaced stickers."""
     solved = Cube()
-    return sum(cube.faces[f][i][j] != solved.faces[f][i][j] for f in cube.faces for i in range(3) for j in range(3))
+    return sum(
+        cube.faces[f][i][j] != solved.faces[f][i][j]
+        for f in cube.faces
+        for i in range(3)
+        for j in range(3)
+    )
 
 
 def bfs_solver(start_cube, max_depth=7):
@@ -57,7 +62,9 @@ def astar_solver(start_cube, max_depth=10):
         for move in MOVES:
             new_cube = current.clone()
             new_cube.move(move)
-            heapq.heappush(heap, (heuristic(new_cube) + cost + 1, cost + 1, new_cube, path + [move]))
+            heapq.heappush(
+                heap,
+                (heuristic(new_cube) + cost + 1, cost + 1, new_cube, path + [move]),
+            )
     print("A*: No solution found within depth limit.")
     return None
-

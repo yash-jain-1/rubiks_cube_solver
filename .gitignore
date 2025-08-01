@@ -26,3 +26,14 @@ Lib/
 # ===========================
 lib/__pycache__/
 # Add more project-specific ignores below
+
+# Dependencies
+frontend/node_modules
+
+# Production
+frontend/dist
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
