@@ -1,6 +1,6 @@
-from cube import Cube
-from solver import solve_cube, bfs_solver, astar_solver
-from visualizer import display_cube
+from lib.cube import Cube
+from lib.solver import solve_cube, bfs_solver, astar_solver
+from lib.visualizer import display_cube
 
 cube = Cube()
 scramble_seq = cube.scramble()
