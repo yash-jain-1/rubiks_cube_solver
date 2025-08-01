@@ -1,5 +1,6 @@
 import kociemba
-from cube import Cube, MOVES
+# The . tells Python to look in the same package directory (lib/).
+from .cube import Cube, MOVES
 from collections import deque
 import heapq
 
