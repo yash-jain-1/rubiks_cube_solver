@@ -1,2 +1,10 @@
 # VS Code config files
 .vscode/
+./Scripts
+.venv/
+# Python cache files
+./lib/__pycache__/
+# Python virtual environment
+__pycache__/
+./Lib
+./.venv
